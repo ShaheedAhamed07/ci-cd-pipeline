@@ -12,7 +12,7 @@ def test_hello(self):
     self.assertEqual(response.status_code, 200)
     self.assertEqual(response.data.decode(), "Hello, World!")
 
-if  name == " main ":
+if  name == " __main__ ":
   unittest.main()
 
 
